@@ -1,0 +1,48 @@
+.conofallcon{
+   min-height: 70vh;
+   width: 500px;
+   margin: auto;
+   background-color: aliceblue;
+}
+
+.mainCon{
+   width: 500px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   gap: 10px;
+}
+
+#addTodo{
+   padding: 3px;
+}
+
+#addBtn{
+   border-radius: 6px;
+}
+
+.todoList{
+   width: 400px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   gap: 10px;
+}
+
+.todo{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 5px;
+   padding: 8px;
+   border-radius: 8px;
+}
+
+.delBtn{
+   margin-left: auto;
+}
+
+.done{
+   background-color: rgb(255, 148, 148);
+}
